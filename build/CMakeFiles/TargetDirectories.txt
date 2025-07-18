@@ -1,0 +1,3 @@
+C:/Users/mayan/i_luv_fractals/build/CMakeFiles/main.dir
+C:/Users/mayan/i_luv_fractals/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mayan/i_luv_fractals/build/CMakeFiles/ZERO_CHECK.dir
