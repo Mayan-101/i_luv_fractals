@@ -22,6 +22,7 @@ Run with an OpenGL-compatible environment (e.g., GLFW, GLAD).
 
 ##  Benchmarks 
 FPS: 150-300
+
 GPU : Nvidia GeForce MX330 (2GB VRAM)
 
 note: it can be further optimized using compute shaders but..
