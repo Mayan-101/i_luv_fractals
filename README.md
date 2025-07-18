@@ -14,7 +14,9 @@ Coloring: Map iteration count to RGB for visualization.
 Install VSCode with OpenGL 4.6 support (e.g., via GLSL extension).
 Clone repo: git clone <repo-url>.
 Run with an OpenGL-compatible environment (e.g., GLFW, GLAD).
-##Demo
+
+
+##  Demo
 ![2025-07-03 22-43-33](https://github.com/user-attachments/assets/d8b2347d-dbef-4c4e-ac03-c5f9fc2d3113)
 
 
