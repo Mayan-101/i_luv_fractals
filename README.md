@@ -6,7 +6,7 @@ $z_{n+1} = z_n^2 + c$
 
 where ( z ) is a complex number in the plane. A point ( z_0 ) belongs to the set if the sequence remains bounded (i.e., $(|z_n| \leq 2 $)) after many iterations. The fragment shader evaluates each pixel’s coordinates as ( z_0 ), iterates the function, and colors based on escape time or boundedness.
 
-Iteration: ( $z_{n+1} = z_n^2 + c $), typically 100–1000 iterations.(here, 512 )
+Iteration: ( $z_{n+1} = z_n^2 + c $), typically 100–1000 iterations.(here, 256 )
 Escape Condition: If ( |z_n| > 2 ), the point escapes; color by iteration count.
 Coloring: Map iteration count to RGB for visualization.
 
@@ -24,8 +24,11 @@ with only fragment shaders
 
 
 ##  Benchmarks 
+
 FPS:  150-300 (only using fragment shader)
-      330-400 (newer version with compute shader)
+
+  330-400 (newer version with compute shader)
+
 GPU : Nvidia GeForce MX330 (2GB VRAM)
 
 note: it can be further optimized using compute shaders but..
