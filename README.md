@@ -19,12 +19,15 @@ Run with an OpenGL-compatible environment (e.g., GLFW, GLAD).
 
 ##  Demo
 ![2025-07-03 22-43-33](https://github.com/user-attachments/assets/d8b2347d-dbef-4c4e-ac03-c5f9fc2d3113)
+with only fragment shaders
+
 
 ##  Benchmarks 
-FPS: 150-300
-
+FPS:  150-300 (only using fragment shader)
+      330-400 (newer version with compute shader)
 GPU : Nvidia GeForce MX330 (2GB VRAM)
 
 note: it can be further optimized using compute shaders but..
 for now i am just too lazy for it...
+edit: well.. i broke the laziness the next day...
 
