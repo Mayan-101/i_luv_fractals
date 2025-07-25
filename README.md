@@ -13,7 +13,9 @@ Coloring: Map iteration count to RGB for visualization.
 ##  Setup
 
 Install VSCode with OpenGL 4.6 support (e.g., via GLSL extension).
+
 Clone repo: git clone <repo-url>.
+
 Run with an OpenGL-compatible environment (e.g., GLFW, GLAD).
 
 
@@ -32,6 +34,9 @@ FPS:  150-300 (only using fragment shader)
 GPU : Nvidia GeForce MX330 (2GB VRAM)
 
 note: it can be further optimized using compute shaders but..
+
 for now i am just too lazy for it...
+
+
 edit: well.. i broke the laziness the next day...
 
