@@ -17,6 +17,42 @@ Install VSCode with OpenGL 4.6 support (e.g., via GLSL extension).
 Clone repo: git clone <repo-url>.
 
 Run with an OpenGL-compatible environment (e.g., GLFW, GLAD).
+#### 1. Install vcpkg
+
+First, you need to install vcpkg itself. This involves cloning the repository and running the bootstrap script.
+
+*   **Clone the repository:**
+    ```bash
+    git clone https://github.com/microsoft/vcpkg
+    ```
+
+*   **Run the bootstrap script:**
+    *   On **Windows**:
+        ```bash
+        .\vcpkg\bootstrap-vcpkg.bat
+        ```
+    *   On **Linux or macOS**:
+        ```bash
+        ./vcpkg/bootstrap-vcpkg.sh
+        ```
+
+#### 2. Install Dependencies
+
+Once vcpkg is set up, you can install the required libraries. For 64-bit systems, it is recommended to specify the `x64-windows` triplet.
+
+*   **Install glfw, glad, and glm:**
+    ```bash
+    vcpkg install glfw3 glad glm
+    ```
+    *For 64-bit Windows, use:*
+    ```bash
+    vcpkg install glfw3:x64-windows glad:x64-windows glm:x64-windows
+    ```
+
+#### 3. Execute the CMake 
+    cmake ..
+    cd build && cmake --build
+
 
 
 ##  Demo
